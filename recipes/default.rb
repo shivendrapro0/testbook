@@ -5,7 +5,7 @@ log "Welcome to Chef, #{node["testbook"]["starter_name"]}! :version #{run_contex
 }" do
   level :info
 end
-log "We are testing chef Policyfile! :version #{run_context.cookbook_collection[cookbook_name].version
+log "New Changes ! :version #{run_context.cookbook_collection[cookbook_name].version
 }" do
   level :info
 end
